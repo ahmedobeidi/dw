@@ -1,0 +1,92 @@
+/* Votre code CSS ici ! */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 12vh;
+    font-family: 'Lobster', cursive;
+    background-color: #217565;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;  
+}
+
+.header .content {
+    font-size: 25px;
+}
+
+
+.container {
+    width: 100vw;
+    height: 76vh;
+    font-family: 'Lobster Two', cursive;
+    background-image: url(assets/banner.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content {
+    background-color: #217565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 700px;
+    height: 320px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+}
+
+.container .content img {
+    width: 200px;
+    padding: 5px 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.container .content h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36vh;
+    width: 200px;
+    padding: 5px 10px;
+    font-size: 35px;
+    border-bottom: 2px solid gray;
+}
+
+.footer {
+    width: 100vw;
+    height: 12vh;
+    font-family: 'Lobster Two', cursive;
+    background-color: #217565;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid gray;
+}
+
+.footer .content {
+    display: flex;
+    align-items: center;
+}
+
+.footer .content img {
+    margin: 5px;
+    width: 18px;
+}
+
+.footer .content p {
+    margin: 5px;
+    font-size: 22px;
+}
